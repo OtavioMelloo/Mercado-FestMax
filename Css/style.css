@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'inter', Courier, monospace;
+    outline: none;
 }
 
 :root {
@@ -12,6 +13,10 @@
     --cor3: #031CA6;
     --cor4: #A9ABD9;
     --w: #F2F2F2;
+}
+
+.layout {
+    width: 100%;
 }
 
 .frame01_header {
@@ -58,6 +63,28 @@
 
 .conta, .pedidos {
     display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.text_header{
+    display: flex;
+    flex-direction: column;
+    line-height: 100%;
+}
+
+.actions span {
+    font-size: 32px;
+    margin-left: 3px;
+}
+
+.actions {
+    color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* !Inicio da Navbar */
