@@ -15,6 +15,10 @@
     --w: #F2F2F2;
 }
 
+.actions a {
+    color: white;
+}
+
 .layout {
     width: 100%;
 }
@@ -36,8 +40,9 @@
 
 .searchbar {
     display: flex;
-    width: 100px;
+    width: 30%;
     height: 30px;
+    /* background-color: aqua; */
 }
 
 
@@ -78,14 +83,27 @@
 .actions span {
     font-size: 32px;
     margin-left: 3px;
+    font-weight: 200;
 }
 
 .actions {
+    /* background-color: rgb(0, 0, 0); */
     color: white;
-    width: 400px;
+    width: 60%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
+
+.equipe_text {
+    margin-left: 3px;
+}
+
+.nosso_time span {
+    font-size: 40px;
+    margin-top: -5px;
+}
+
 
 /* !Inicio da Navbar */
 
