@@ -5,5 +5,6 @@ function mudarPromo(direction) {
     promoAtual += direction;
     if (promoAtual < 0) promoAtual = promos.length - 1;
     if (promoAtual >= promos.length) promoAtual = 0;
-    document.querySelector("#promo").src = promos[promoAtual];
+    document.querySelector("#promo").
+    src = promos[promoAtual];
 }
