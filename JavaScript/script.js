@@ -1,4 +1,4 @@
-var promos = ["/Assets/IMG/promo1.jpg", "/Assets/IMG/promo2.jpg"];
+var promos = ["/Assets/IMG/promo1.png", "/Assets/IMG/promo2.png"];
 var promoAtual = 0;
 
 function mudarPromo(direction) {
