@@ -41,7 +41,8 @@
 }
 
 
-.searchbar input, .searchbar i {
+.searchbar input,
+.searchbar i {
     background-color: #6371BF;
     border: none;
     color: white;
@@ -61,7 +62,8 @@
     padding: 10px;
 }
 
-.conta, .pedidos {
+.conta,
+.pedidos {
     display: flex;
 }
 
@@ -69,7 +71,7 @@
     display: flex;
 }
 
-.text_header{
+.text_header {
     display: flex;
     flex-direction: column;
     line-height: 100%;
@@ -102,7 +104,7 @@ nav {
     background-color: var(--cor2);
 }
 
-.frame01_promocoes{
+.frame01_promocoes {
     display: flex;
     justify-content: center;
     margin-right: auto;
@@ -122,7 +124,8 @@ nav {
     height: 100%;
 }
 
-.frame01_seta_direita, .frame01_seta_esquerda {
+.frame01_seta_direita,
+.frame01_seta_esquerda {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -136,4 +139,33 @@ nav {
 
 .frame01_seta_direita {
     right: 10px;
+}
+
+.frame01_dots {
+    margin-top: 10px;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dots {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.dot.active {
+    background-color: #000;
 }

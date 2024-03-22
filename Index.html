@@ -1,90 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="stylesheet" href="Css/style.css" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <title>FestMax</title>
-  </head>
-  <body>
-    <section class="frame01_header">
-      <div id="mainframe01">
-        <img
-          src="Assets/IMG/Logo_FestMax.png"
-          alt="Logo"
-          width="90px"
-          height="100%"
-        />
+<head>
+  <link rel="stylesheet" href="Css/style.css" />
 
-        <div class="searchbar">
-          <input type="text" placeholder="Procurando Algo?" />
-          <a href="#" type="button"><i class="material-icons">search</i></a>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>FestMax</title>
+</head>
+
+<body>
+  <section class="frame01_header">
+    <div id="mainframe01">
+      <img src="Assets/IMG/Logo_FestMax.png" alt="Logo" width="90px" height="100%" />
+
+      <div class="searchbar">
+        <input type="text" placeholder="Procurando Algo?" />
+        <a href="#" type="button"><i class="material-icons">search</i></a>
+      </div>
+
+      <div class="actions">
+        <a href="#">
+          <div class="conta icon_text">
+            <span class="material-symbols-outlined">contacts_product</span>
+            <div class="account_text text_header">
+              <h1>Minha</h1>
+              <p>conta</p>
+            </div>
+          </div>
+        </a>
+        <div class="M_pedidos flex">
+          <span class="material-symbols-outlined">package_2</span>
+          <div class="pedidos_text text_header">
+            <h1>Meus</h1>
+            <p>pedidos</p>
+          </div>
         </div>
-
-        <div class="actions">
-          <a href="#">
-            <div class="conta icon_text">
-              <span class="material-symbols-outlined">contacts_product</span>
-              <div class="account_text text_header">
-                <h1>Minha</h1>
-                <p>conta</p>
-              </div>
-            </div>
-          </a>
-          <div class="M_pedidos flex">
-            <span class="material-symbols-outlined">package_2</span>
-            <div class="pedidos_text text_header">
-              <h1>Meus</h1>
-              <p>pedidos</p>
-            </div>
-          </div>
-          <div class="compre_novamente icon_text">
-            <span class="material-symbols-outlined">package_2</span>
-            <h1></h1>
-          </div>
-          <div class="carrinho_de_compras">
-            <i></i>
-            <h1></h1>
-          </div>
+        <div class="compre_novamente icon_text">
+          <span class="material-symbols-outlined">package_2</span>
+          <h1></h1>
+        </div>
+        <div class="carrinho_de_compras">
+          <i></i>
+          <h1></h1>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="frame01_nav">
-      <nav class="nav_bar">
-        <h1></h1>
-      </nav>
-    </section>
+  <section class="frame01_nav">
+    <nav class="nav_bar">
+      <h1></h1>
+    </nav>
+  </section>
 
-    <section class="frame01_promocoes">
-      <div class="frame01_promo">
-          <div class="frame01_seta_esquerda" onclick="mudarPromo(-1)">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
-              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-            </svg>
-          </div>
+  <section class="frame01_promocoes">
+    <div class="frame01_promo">
+      <div class="frame01_seta_esquerda" onclick="mudarPromo(-1);previous()">
+        <svg xmlns="http://www.w3.org/2000/svg" id="seta-esquerda" width="16" height="16" fill="currentColor"
+          class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+          <path
+            d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+        </svg>
+      </div>
 
-          <img src="/Assets/IMG/promo1.png" alt="Promoção 1" id="promo">
+      <img src="/Assets/IMG/promo1.png" alt="Promoção 1" id="promo">
 
-          <div class="frame01_seta_direita" onclick="mudarPromo(1)">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-            </svg>
-          </div>
-          
-                 
-    </section>
-  
+      <div class="frame01_seta_direita" onclick="mudarPromo(1);next()">
+        <svg xmlns="http://www.w3.org/2000/svg" id="seta-direita" width="16" height="16" fill="currentColor"
+          class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+        </svg>
+      </div>
 
-    <script src="JavaScript/script.js"></script>
-  </body>
+  </section>
+
+  <div class="frame01_dots">
+    <div class="dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <script src="JavaScript/script.js"></script>
+</body>
+
 </html>
