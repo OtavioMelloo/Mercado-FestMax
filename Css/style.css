@@ -133,12 +133,21 @@ nav {
     cursor: pointer;
 }
 
+
 .frame01_seta_esquerda {
     left: 10px;
 }
 
 .frame01_seta_direita {
     right: 10px;
+}
+
+.frame01_seta_esquerda:hover {
+    color: white;
+}
+
+.frame01_seta_direita:hover {
+    color: white;
 }
 
 .frame01_dots {
@@ -159,8 +168,8 @@ nav {
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     margin: 0 5px;
     border-radius: 50%;
     background-color: #ccc;
