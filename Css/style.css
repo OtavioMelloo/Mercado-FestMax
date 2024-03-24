@@ -178,14 +178,14 @@ nav {
     background-color: #000000;
 }
 
-.container{
+.frame01_menucategorias{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
 }
 
-.galery{
+.categoria{
     width: 200px;
     height: 270px;
     padding: 10px;
@@ -204,18 +204,18 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#galery1{
+#categoria1{
     background-image: url('/Assets/IMG/MenuCategorias/card.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.description{
+.frame01_titulocategorias{
     text-align: center;
 }
 
-.galery img{
+.categoria img{
     width: 100%;
     margin-top: 30px;
 }
