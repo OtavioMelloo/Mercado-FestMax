@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'inter', Courier, monospace;
     outline: none;
 }
 
@@ -177,4 +176,56 @@ nav {
 
 .dot.active {
     background-color: #000000;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galery{
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+    margin: auto;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aside{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#galery1{
+    background-image: url('/Assets/IMG/MenuCategorias/card.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.description{
+    text-align: center;
+}
+
+.galery img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.padaria img{
+    margin-top: 45px;
+
+}
+
+.acougue img{
+    margin-top: 50px;
+    margin-left: 10px;
 }
