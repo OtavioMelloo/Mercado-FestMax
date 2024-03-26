@@ -178,7 +178,7 @@ nav {
     background-color: #000000;
 }
 
-.frame01_menucategorias{
+.frame02_menucategorias{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 60px;
     display: flex;
@@ -219,7 +219,7 @@ nav {
     background-repeat: no-repeat;
 }
 
-.frame01_titulocategorias{
+.frame02_titulocategorias{
     text-align: center;
 }
 
