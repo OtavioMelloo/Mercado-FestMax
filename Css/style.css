@@ -127,13 +127,26 @@ nav {
     background-color: var(--cor2);
 }
 
+.frame01_fretegratis{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.frame01_fretegrat{
+    border: 2px solid black;
+    height: 6.5rem;
+}
+
 
 .frame01_promocoes {
     display: flex;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .frame01_promo {
