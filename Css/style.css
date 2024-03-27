@@ -3,9 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'inter', Courier, monospace;
     outline: none;
-    
+
 }
 
 :root {
@@ -52,7 +51,8 @@
 }
 
 
-.searchbar input, .searchbar i {
+.searchbar input,
+.searchbar i {
     background-color: #6371BF;
     border: none;
     color: white;
@@ -72,9 +72,11 @@
     border-radius: 0px 10px 10px 0px;
     padding: 10px;
 }
+
 /*COMENTARIO FODA*/
 
-.conta, .pedidos {
+.conta,
+.pedidos {
     display: flex;
 }
 
@@ -82,7 +84,7 @@
     display: flex;
 }
 
-.text_header{
+.text_header {
     display: flex;
     flex-direction: column;
     line-height: 110%;
@@ -272,7 +274,7 @@ nav {
     background-color: #000000;
 }
 
-.frame02_menucategorias{
+.frame02_menucategorias {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 60px;
     width: 1080px;
@@ -282,7 +284,7 @@ nav {
     margin-left: auto;
 }
 
-.categoria{
+.categoria {
     width: 200px;
     height: 270px;
     padding: 10px;
@@ -299,38 +301,103 @@ nav {
 }
 
 
-.categoria:hover{
+.categoria:hover {
     width: 207px;
     height: 277px;
     cursor: pointer;
 }
 
-.aside{
+.aside {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#categoria1{
+#categoria1 {
     background-image: url('/Assets/IMG/MenuCategorias/card.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.frame02_titulocategorias{
+.frame02_titulocategorias {
     text-align: center;
 }
 
-.categoria img{
+.categoria img {
     width: 100%;
     margin-top: 30px;
 }
 
-.padaria img{
+.padaria img {
     margin-top: 45px;
 
 }
 
-.acougue img{
+.acougue img {
     margin-top: 50px;
     margin-left: 10px;
+}
+
+.frame02_grid_ofertas {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+.frame02_grid_ofertas h1{
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.produto {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #03178c;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona sombra para dar profundidade */
+}
+
+
+.produto img {
+    width: 80%;
+    position: relative;
+    max-height: 170px;
+    max-width: 100px;
+}
+
+.produto h2, .preco-antigo, .preco-novo {
+    bottom: 0;
+    width: 100%;   
+    padding: 5px 10px;
+}
+
+.preco-antigo {
+    display: inline-block;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.preco-novo {
+    font-size: 1.2em; 
+    color: #009900;
+}
+
+#imgchocolate{
+    margin-top:50px;
+    margin-bottom: 40px;
 }
