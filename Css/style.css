@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'inter', Courier, monospace;
     outline: none;
     
 }
@@ -51,8 +52,7 @@
 }
 
 
-.searchbar input,
-.searchbar i {
+.searchbar input, .searchbar i {
     background-color: #6371BF;
     border: none;
     color: white;
@@ -72,8 +72,7 @@
     padding: 10px;
 }
 
-.conta,
-.pedidos {
+.conta, .pedidos {
     display: flex;
 }
 
@@ -81,7 +80,7 @@
     display: flex;
 }
 
-.text_header {
+.text_header{
     display: flex;
     flex-direction: column;
     line-height: 100%;
@@ -126,6 +125,7 @@ nav {
     height: 100%;
     background-color: var(--cor2);
 }
+
 
 .frame01_promocoes {
     display: flex;
