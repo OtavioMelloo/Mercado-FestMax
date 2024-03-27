@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'inter', Courier, monospace;
     outline: none;
 }
 
@@ -46,7 +45,8 @@
 }
 
 
-.searchbar input, .searchbar i {
+.searchbar input,
+.searchbar i {
     background-color: #6371BF;
     border: none;
     color: white;
@@ -66,7 +66,8 @@
     padding: 10px;
 }
 
-.conta, .pedidos {
+.conta,
+.pedidos {
     display: flex;
 }
 
@@ -74,7 +75,7 @@
     display: flex;
 }
 
-.text_header{
+.text_header {
     display: flex;
     flex-direction: column;
     line-height: 100%;
@@ -118,4 +119,139 @@ nav {
     width: 1080px;
     height: 100%;
     background-color: var(--cor2);
+}
+
+.frame01_promocoes {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+.frame01_promo {
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame01_promo img {
+    width: 100%;
+    height: 100%;
+}
+
+.frame01_seta_direita,
+.frame01_seta_esquerda {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    cursor: pointer;
+}
+
+
+.frame01_seta_esquerda {
+    left: 10px;
+}
+
+.frame01_seta_direita {
+    right: 10px;
+}
+
+.frame01_seta_esquerda:hover {
+    color: white;
+}
+
+.frame01_seta_direita:hover {
+    color: white;
+}
+
+.frame01_dots {
+    margin-top: 10px;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dots {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.dot.active {
+    background-color: #000000;
+}
+
+.frame02_menucategorias{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoria{
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+    margin: auto;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease-out;
+}
+
+
+.categoria:hover{
+    width: 207px;
+    height: 277px;
+    cursor: pointer;
+}
+
+.aside{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#categoria1{
+    background-image: url('/Assets/IMG/MenuCategorias/card.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame02_titulocategorias{
+    text-align: center;
+}
+
+.categoria img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.padaria img{
+    margin-top: 45px;
+
+}
+
+.acougue img{
+    margin-top: 50px;
+    margin-left: 10px;
 }
