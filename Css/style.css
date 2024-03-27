@@ -44,6 +44,11 @@
     /* background-color: aqua; */
 }
 
+#mainframe01 img {
+    width: 90px;
+    height: 67px;
+}
+
 
 .searchbar input,
 .searchbar i {
