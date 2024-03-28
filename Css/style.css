@@ -401,3 +401,22 @@ nav {
     margin-top:50px;
     margin-bottom: 40px;
 }
+
+.footer-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.footer-icones,
+.footer-links,
+.footer-contato {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.footer-icones h2,
+.footer-links h2,
+.footer-contato h2 {
+    margin-bottom: 10px; 
+}
