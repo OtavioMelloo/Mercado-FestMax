@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frame03_header {
+    background-color: #031CA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame03_lista_produtos {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frame03_produtos {
+    margin-top: 4rem;
+    text-align: center;
+    border: 1px solid #BABABA;
+    border-radius: 5px;
+    width: 85%;
+    padding: 20px;
+}
+
+
+
+.info-produto {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    /* Alinha os elementos filhos na vertical */
+    justify-content: space-around;
+}
+
+.info-produto img {
+    width: 50px;
+}
+
+.titulos {
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+
+
+.quantidade-produto {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo dos botões */
+.botao {
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #ccc;
+}
+
+/* Estilo do input */
+.input-numero {
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.frame03_form {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.frame03_form p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.opcoes {
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.frame03_form label {
+    display: block;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.enviar{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enviar button{
+    background-color: #031CA6;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 246px;
+    height: 76px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+
+.enviar button:hover{
+    cursor: pointer;
+    width: 256px;
+    height: 86px;
+}
