@@ -128,12 +128,9 @@ input[type="radio"] {
     height: 76px;
     border: none;
     border-radius: 15px;
-    transition: 0.5s;
 }
 
 
 .enviar button:hover{
     cursor: pointer;
-    width: 256px;
-    height: 86px;
 }
