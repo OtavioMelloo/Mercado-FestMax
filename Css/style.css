@@ -24,15 +24,23 @@
     width: 100%;
 }
 
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 50px;
+}
+
 .frame01_header {
     width: 100%;
-    height: 70px;
+    height: 50px;
     background-color: var(--cor1);
 }
 
 #mainframe01 {
     margin: 0 auto;
-    width: 1080px;
+    width: 1300px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -43,7 +51,7 @@
     display: flex;
     width: 30%;
     height: 30px;
-    /* background-color: aqua; */
+    margin-right: 10px;
 }
 
 #mainframe01 img {
@@ -61,20 +69,19 @@
     display: flex;
     align-items: center;
     padding: 5px;
+    width: 400px;
 }
 
 .searchbar input {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .searchbar i {
     width: 100%;
     height: 100%;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 5px 5px 0px;
     padding: 10px;
 }
-
-/*COMENTARIO FODA*/
 
 .conta,
 .pedidos {
@@ -88,18 +95,24 @@
 .text_header {
     display: flex;
     flex-direction: column;
-    line-height: 110%;
-    font-size: 14px;
-    margin-left: 5px;
+    margin-left: 0.3em;
+    line-height: 1em;
+    font-size: 12px;
+
 }
 
 .actions {
-    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgb(121, 60, 60); */
     color: white;
-    width: 50%;
     display: flex;
+    justify-content: end;
     align-items: center;
-    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    width: auto;
 }
 
 .actions a span {
@@ -133,6 +146,26 @@ input:focus::placeholder {
     height: 30px;
 }
 
+.pintar {
+    background-color: yellow;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    display: flex;
+    margin-right: 30px;
+}
+
+.time {
+    margin-right: 0;
+    /* background-color: #009900; */
+}
+
 /* !INICIO DA NAV BAR */
 
 .frame01_nav {
@@ -143,7 +176,7 @@ input:focus::placeholder {
 
 nav {
     margin: 0 auto;
-    width: 1080px;
+    width: 1300px;
     height: 100%;
     background-color: var(--cor2);
 }
@@ -174,6 +207,16 @@ nav {
     height: 6.5rem;
 }
 
+#menu_hamb {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+#menu_hamb span {
+    margin-right: 3px;
+}
+
 .nav_bar {
     display: flex;
     align-items: center;
@@ -200,7 +243,7 @@ nav {
 /* !INICIO DE PROMOÇÕES */
 
 .frame01_promocoes {
-    width: 1080px;
+    width: 1300px;
     display: flex;
     justify-content: center;
     margin-right: auto;
@@ -278,7 +321,7 @@ nav {
 .frame02_menucategorias {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 60px;
-    width: 1080px;
+    width: 1300px;
     display: flex;
     justify-content: space-around;
     margin-right: auto;
@@ -340,7 +383,7 @@ nav {
 
 .frame02_grid_ofertas {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -378,6 +421,11 @@ nav {
     transition: 0.5s ease-in-out;
 }
 
+.produto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 10px var(--cor1);
+}
+
 .img_product {
     grid-row: 1 / 2;
     /* background-color: #999; */
@@ -411,6 +459,7 @@ nav {
     width: 100%;   
     padding: 1px;
 }
+
 
 .preco-antigo {
     display: inline-block;
@@ -450,7 +499,7 @@ nav {
 }
 
 footer {
-    width: 1080px;
+    width: 1300px;
     background-color: #03178c;
     color: white;
     display: flex;

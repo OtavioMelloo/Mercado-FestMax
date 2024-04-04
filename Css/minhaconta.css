@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#criar {
+    background-image: url("../Assets/IMG/minhaconta/fresh-fruit-stalls-san-miguel-market.jpg");
+}
+
+#registro {
+    background-image: url("..//Assets/IMG/minhaconta/BEmvindo.png");
+}
+
+.criar_conta{
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    line-height: 100%;
+}
+
+.criar_conta a {
+    color: #6371BF;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1 {
+    font-size: 50px;
+}
+
+.login p {
+    margin-top: -3px;
+    margin-bottom: 50px;
+}
+
+.infologin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+}
+
+.infologin label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.infologin input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+.esqueceusenha{
+    margin-top: -15px;
+    text-decoration: underline;
+    color: black;
+}
+
+#esqueceusenha {
+    color: #b3b3b3;
+}
+
+#esqueceusenha:hover {
+    color: #1e1e1e;
+}
+
+.btn_login {
+    width: 300px;
+    height: 40px;
+    background-color: #1e1e1e;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+.btn_login:hover {
+    background-color: #494949;
+}
+
+.criar_conta a:hover {
+    color: #031CA6;
+}
+
+.back {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+

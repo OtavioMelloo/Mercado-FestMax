@@ -12,276 +12,320 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <title>FestMax</title>
-</head>
+    <link rel="stylesheet" href="Css/menuhamb.css">
+    <title>FestMax</title>
+  </head>
+  
+  <body>
+    
+      <div class="menu_escuro"></div>
 
-<body>
-  <section class="frame01_header">
-    <div id="mainframe01">
-
-      <img src="Assets/IMG/Logo_FestMax.png" alt="Logo" />
-      <div class="searchbar">
-
-        <!-- COMENTARIO FODA 2 -->
-
-        <input type="text" placeholder="Procurando Algo?" />
-        <a href="#" type="button"><i class="material-icons">search</i></a>
-      </div>
-
-      <div class="actions">
-        <a href="#">
-          <div class="conta icon_text point">
-            <span class="material-symbols-outlined">contacts_product</span>
-            <div class="account_text text_header">
-              <h1>Minha</h1>
-              <p>conta</p>
+      <div class="menu_hamburguer">
+        <div class="menu_hidden">
+          <div class="titulo_menu">
+            <h3>Navegue pelo Festmax</h3>
+            <span id="fechar_menu" class="material-symbols-outlined fechar_menu">close</span></button>
+          </div>
+          <div class="cat">
+            <div id="cat1" class="item">
+              <img src="Assets/IMG/menu_hidden/acougueiro.png" alt="Açougue">
+              <p>Açougue</p>
+            </div>
+            <div id="cat2" class="item">
+              <img src="Assets/IMG/menu_hidden/queijo.png" alt="Queijo e Laticinios">
+              <p>Frios & Laticinios</p></div>
+            <div id="cat3" class="item">
+              <img src="Assets/IMG/menu_hidden/padaria.png" alt="Padaria">
+              <p>Padaria</p>
+            </div>
+            <div id="cat4" class="item">
+              <img src="Assets/IMG/menu_hidden/licor.png" alt="Bebidas">
+              <p>Bebidas</p>
+            </div>
+            <div id="cat5" class="item">
+              <img src="Assets/IMG/menu_hidden/cleaning.png" alt="limpeza">
+              <p>Limpeza</p>
+            </div>
+            <div id="cat6" class="item">
+              <img src="Assets/IMG/menu_hidden/legumes.png" alt="Hortifrúti">
+              <p>Hortifrúti</p>
             </div>
           </div>
-        </a>
-        <a href="#">
-          <div class="M_pedidos flex point">
-            <span class="material-symbols-outlined">package_2</span>
-            <div class="pedidos_text text_header">
-              <h1>Meus</h1>
-              <p>pedidos</p>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="nosso_time flex icon_text point">
-            <span class="material-symbols-outlined">diversity_3</span>
-            <div class="equipe_text text_header">
-              <h1>Nosso</h1>
-              <p>Time</p>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="carrinho_compra flex icon_text point">
-            <span class="material-symbols-outlined">shopping_cart</span>
-            <div class="equipe_text text_header">
-              <h1>Carrinho</h1>
-              <p>Time</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-    </div>
-  </section>
-
-    <section class="frame01_nav">
-      <nav class="nav_bar">
-        <a href="#">Todas as Categorias</a>
-        <a href="#">Hortifrúti</a>
-        <a href="#">Bebidas</a>
-        <a href="#">Padaria</a>
-        <a href="#">Mercearia</a>
-        <a href="#">Higiene e perfumaria</a>
-        <a href="#">Sou FestMax</a>
-      </nav>
-    </section>
-
-    <section class="frame01_fretegratis">
-      <div class="frame01_fretegrat">
-        <img src="/Assets/IMG/Frete_Gratis.png" alt="Frete">
-      </div>
-    </section>
-
-  <section class="frame01_promocoes">
-    <div class="frame01_promo">
-      <div class="frame01_seta_esquerda" onclick="mudarPromo(-1);previous()">
-        <svg xmlns="http://www.w3.org/2000/svg" id="seta-esquerda" width="40" height="40" fill="currentColor"
-          class="bi bi-caret-left-fill" viewBox="0 0 16 16">
-          <path
-            d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
-        </svg>
-      </div>
-
-      <img src="/Assets/IMG/promo1.png" alt="Promoção 1" id="promo">
-
-      <div class="frame01_seta_direita" onclick="mudarPromo(1);next()">
-        <svg xmlns="http://www.w3.org/2000/svg" id="seta-direita" width="40" height="40" fill="currentColor"
-          class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-          <path
-            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-        </svg>
-      </div>
-
-  </section>
-
-  <div class="frame01_dots">
-    <div class="dots">
-      <div class="dot active"></div>
-      <div class="dot"></div>
-    </div>
-  </div>
-
-  <div class="frame02_menucategorias">
-    <section class="categoria acougue" id="categoria1">
-      <aside class="frame02_titulocategorias">
-        Açougue
-      </aside>
-      <img src="/Assets/IMG/MenuCategorias/acougue.png">
-    </section>
-
-    <section class="categoria" id="categoria1">
-      <aside class="frame02_titulocategorias">
-        Hortifrúti
-      </aside>
-      <img src="/Assets/IMG/MenuCategorias/hortfruti.png">
-    </section>
-
-    <section class="categoria padaria" id="categoria1">
-      <aside class="frame02_titulocategorias">
-        Padaria
-      </aside>
-      <img src="/Assets/IMG/MenuCategorias/padaria.png" id="imgpad">
-    </section>
-
-    <section class="categoria" id="categoria1">
-      <aside class="frame02_titulocategorias">
-        Perfumaria
-      </aside>
-      <img src="/Assets/IMG/MenuCategorias/perfumes.png">
-    </section>
-
-    <section class="categoria" id="categoria1">
-      <aside class="frame02_titulocategorias">
-        Bebidas
-      </aside>
-      <img src="/Assets/IMG/MenuCategorias/bebidas.png">
-    </section>
-  </div>
-
-  <div class="frame02_grid_ofertas">
-    <h1>Ofertas do Dia</h1>
-    <div class="grid-produtos">
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/maionese.png" alt="Produto 1"></div>
-        <div class="desc_product">
-          <h2>MAIONESE</h2>
-          <div class="preco_product">
-            <span class="preco-antigo">R$ 10,99</span>
-            <span class="preco-novo">R$ 8,99</span>
+          <div class="cat2">
+            <h3>Categorias</h3>
+            <a href="">Bebidas</a>
+            <hr>
+            <a href="">Higiene</a>
+            <hr>
+            <a href="">Mercearia</a>
+            <hr>
+            <a href="">Hortifrúti</a>
+            <hr>
+            <a href="">Adega</a>
+            <hr>
+            <a href="">Petshop</a>
+            <hr>
+            <a href="">Sorvete</a>
+            <hr>
+            <a href="">Floricultura</a>
           </div>
         </div>
       </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/cerveja.png" alt="Produto 2"></div>
-        <div class="desc_product">
-          <h2>CERVEJA</h2>
-          <div class="preco_product">
-            <span class="preco-antigo">R$ 7,49</span>
-            <span class="preco-novo">R$ 6,49</span>
+      <section class="frame01_header">
+        <div id="mainframe01">
+        <div class="logo pinter"><img src="Assets/IMG/Logo_FestMax.png" alt="Logo" /></div>
+      
+        <div class="actions">
+          <!-- Barra de Pesquisa -->
+          <div class="searchbar">
+            <input type="text" placeholder="Procurando Algo?" />
+            <a href="#" type="button"><i class="material-icons">search</i></a>
+          </div>
+          <!-- Icones -->
+          <div class="icon">
+            <a href="/pages/minhaconta.html">
+              <div class="icone">
+                <span class="material-symbols-outlined">contacts_product</span>
+                <div class="text_header">
+                  <p>Minha <br> conta</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="icone">
+                <span class="material-symbols-outlined">package_2</span>
+                <div class="text_header">
+                  <p>Meus <br> pedidos</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="icone">
+                <span class="material-symbols-outlined">shopping_cart</span>
+                <div class="text_header">
+                  <p>Carrinho de <br> compras</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="icone time">
+                <span class="material-symbols-outlined">diversity_4</span>
+                <div class="text_header">
+                  <p>Nosso <br> time</p>
+                </div>
+              </div>
+            </a>
+            </div>
+          </div>
+      </div>
+      </div>
+        </section>
+      <section class="frame01_nav">
+        <nav class="nav_bar">
+          <a href="#" id="menu_hamb" class="menu"><span class="material-symbols-outlined">menu</span>Todas as Categorias</a>
+          <a href="#">Hortifrúti</a>
+          <a href="#">Bebidas</a>
+          <a href="#">Padaria</a>
+          <a href="#">Mercearia</a>
+          <a href="#">Higiene e perfumaria</a>
+          <a href="#">Sou FestMax</a>
+        </nav>
+      </section>
+      <section class="frame01_fretegratis">
+        <div class="frame01_fretegrat">
+          <img src="/Assets/IMG/Frete_Gratis.png" alt="Frete">
+        </div>
+      </section>
+      
+        <section class="frame01_promocoes">
+      <div class="frame01_promo">
+        <div class="frame01_seta_esquerda" onclick="mudarPromo(-1);previous()">
+          <svg xmlns="http://www.w3.org/2000/svg" id="seta-esquerda" width="40" height="40" fill="currentColor"
+            class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+            <path
+              d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+          </svg>
+        </div>
+        <img src="/Assets/IMG/promo1.png" alt="Promoção 1" id="promo">
+        <div class="frame01_seta_direita" onclick="mudarPromo(1);next()">
+          <svg xmlns="http://www.w3.org/2000/svg" id="seta-direita" width="40" height="40" fill="currentColor"
+            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path
+              d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+          </svg>
+        </div>
+      
+        </section>
+      
+        <div class="frame01_dots">
+      <div class="dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+      </div>
+        </div>
+      
+        <div class="frame02_menucategorias">
+      <section class="categoria acougue" id="categoria1">
+        <aside class="frame02_titulocategorias">
+          Açougue
+        </aside>
+        <img src="/Assets/IMG/MenuCategorias/acougue.png">
+      </section>
+      <section class="categoria" id="categoria1">
+        <aside class="frame02_titulocategorias">
+          Hortifrúti
+        </aside>
+        <img src="/Assets/IMG/MenuCategorias/hortfruti.png">
+      </section>
+      <section class="categoria padaria" id="categoria1">
+        <aside class="frame02_titulocategorias">
+          Padaria
+        </aside>
+        <img src="/Assets/IMG/MenuCategorias/padaria.png" id="imgpad">
+      </section>
+      <section class="categoria" id="categoria1">
+        <aside class="frame02_titulocategorias">
+          Perfumaria
+        </aside>
+        <img src="/Assets/IMG/MenuCategorias/perfumes.png">
+      </section>
+      <section class="categoria" id="categoria1">
+        <aside class="frame02_titulocategorias">
+          Bebidas
+        </aside>
+        <img src="/Assets/IMG/MenuCategorias/bebidas.png">
+      </section>
+        </div>
+      
+        <div class="frame02_grid_ofertas">
+      <h1>Ofertas do Dia</h1>
+      <div class="grid-produtos">
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/maionese.png" alt="Produto 1"></div>
+          <div class="desc_product">
+            <h2>MAIONESE</h2>
+            <div class="preco_product">
+              <span class="preco-antigo">R$ 10,99</span>
+              <span class="preco-novo">R$ 8,99</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="produto">
-          <div class="img_product"><img src="Assets/IMG/ImagensGrid/chocolate.png" alt="Produto 3" id="imgchocolate"></div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/cerveja.png" alt="Produto 2"></div>
           <div class="desc_product">
-            <h2>CHOCOLATE</h2>
+            <h2>CERVEJA</h2>
             <div class="preco_product">
-              <span class="preco-antigo">R$ 5,50</span>
-              <span class="preco-novo">R$ 4,49</span>
+              <span class="preco-antigo">R$ 7,49</span>
+              <span class="preco-novo">R$ 6,49</span>
             </div>
           </div>
-      </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/macarrao.png" alt="Produto 4"></div>
-          <div class="desc_product">
-            <h2>MACARRÃO</h2>
-            <div class="preco_product">
-              <span class="preco-antigo">R$ 15,99</span>
-              <span class="preco-novo">R$ 15,00</span>
+        </div>
+        <div class="produto">
+            <div class="img_product"><img src="Assets/IMG/ImagensGrid/chocolate.png" alt="Produto 3" id="imgchocolate"></div>
+            <div class="desc_product">
+              <h2>CHOCOLATE</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 5,50</span>
+                <span class="preco-novo">R$ 4,49</span>
+              </div>
             </div>
-          </div>
-      </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/amaciante.png" alt="Produto 5"></div>
-          <div class="desc_product">
-            <h2>AMACIANTE</h2>
-            <div class="preco_product">
-              <span class="preco-antigo">R$ 29,99</span>
-              <span class="preco-novo">R$ 26,90</span>
+        </div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/macarrao.png" alt="Produto 4"></div>
+            <div class="desc_product">
+              <h2>MACARRÃO</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 15,99</span>
+                <span class="preco-novo">R$ 15,00</span>
+              </div>
             </div>
-          </div>
-      </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/pao.png" alt="Produto 6"></div>
-          <div class="desc_product">
-            <h2>PÃO DE FORMA</h2>
-            <div class="preco_product">
-              <span class="preco-antigo">R$ 6,99</span>
-              <span class="preco-novo">R$ 5,30</span>
+        </div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/amaciante.png" alt="Produto 5"></div>
+            <div class="desc_product">
+              <h2>AMACIANTE</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 29,99</span>
+                <span class="preco-novo">R$ 26,90</span>
+              </div>
             </div>
-          </div>
-      </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/cremedeleite.png" alt="Produto 7"></div>
-          <div class="desc_product">
-            <h2>CREME DE LEITE</h2>
-            <div class="preco_product">
-              <span class="preco-antigo">R$ 4,50</span>
-              <span class="preco-novo">R$ 3,69</span>
+        </div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/pao.png" alt="Produto 6"></div>
+            <div class="desc_product">
+              <h2>PÃO DE FORMA</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 6,99</span>
+                <span class="preco-novo">R$ 5,30</span>
+              </div>
             </div>
-          </div>
-      </div>
-      <div class="produto">
-        <div class="img_product"><img src="Assets/IMG/ImagensGrid/feijao.png" alt="Produto 8"></div>
-          <div class="desc_product">
-            <h2>FEIJÃO</h2>
-            <div class="preco_product">
-              <span class="preco-antigo">R$ 9,98</span>
-              <span class="preco-novo">R$ 8,79</span>
+        </div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/cremedeleite.png" alt="Produto 7"></div>
+            <div class="desc_product">
+              <h2>CREME DE LEITE</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 4,50</span>
+                <span class="preco-novo">R$ 3,69</span>
+              </div>
             </div>
-          </div>
+        </div>
+        <div class="produto">
+          <div class="img_product"><img src="Assets/IMG/ImagensGrid/feijao.png" alt="Produto 8"></div>
+            <div class="desc_product">
+              <h2>FEIJÃO</h2>
+              <div class="preco_product">
+                <span class="preco-antigo">R$ 9,98</span>
+                <span class="preco-novo">R$ 8,79</span>
+              </div>
+            </div>
+        </div>
       </div>
-    </div>
-  </div>
-  </div>
+        </div>
+        </div>
+        <div class="footer">
+          <footer>
+            <div class="footer-sobre">
+              <div class="footer-icones">
+                <h2>Sobre a rede FestMax</h2>
+                <p>um mercadinho charmoso no coração da cidade, <br>
+                  oferecendo produtos frescos e de qualidade <br>
+                  com preços acessíveis. Venha nos visitar e <br>
+                  aproveite uma experiência de compras única!
+                </p>
+                <ul class="sociais">
+                  <li><a href="#"><i class="icone-facebook">facebook</i></a></li>
+                  <li><a href="#"><i class="icone-twitter">twitter</i></a></li>
+                  <li><a href="#"><i class="icone-instagram">instagram</i></a></li>
+                </ul>
+              </div>
+              <div class="footer-links">
+                <h2>Links Úteis</h2>
+                <ul>
+                  <li><a href="#">Termos de Serviço</a></li>
+                  <li><a href="#">Política de Privacidade</a></li>
+                  <li><a href="#">Contato</a></li>
+                </ul>
+              </div>
+              <div class="footer-contato">
+                <h2>Contato</h2>
+                <p>Email: Suporte@festmax.com.br</p>
+                <p>Telefone: (00) 1234-5678</p>
+              </div>
+            </div>
+            <div class="footer-direitos">
+              &copy; 2024 FestMax. Todos os direitos reservados.
+            </div>
+          </footer>
+        </div>
 
 
 
   <script src="JavaScript/script.js"></script>
+  <script src="JavaScript/menuhamb.js"></script>
 </body>
 
 
-  <div class="footer">
-    <footer>
-      <div class="footer-sobre">
-        <div class="footer-icones">
-          <h2>Sobre a rede FestMax</h2>
-          <p>um mercadinho charmoso no coração da cidade, <br>
-            oferecendo produtos frescos e de qualidade <br>
-            com preços acessíveis. Venha nos visitar e <br>
-            aproveite uma experiência de compras única!
-          </p>
-          <ul class="sociais">
-            <li><a href="#"><i class="icone-facebook">facebook</i></a></li>
-            <li><a href="#"><i class="icone-twitter">twitter</i></a></li>
-            <li><a href="#"><i class="icone-instagram">instagram</i></a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h2>Links Úteis</h2>
-          <ul>
-            <li><a href="#">Termos de Serviço</a></li>
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </div>
-        <div class="footer-contato">
-          <h2>Contato</h2>
-          <p>Email: Suporte@festmax.com.br</p>
-          <p>Telefone: (00) 1234-5678</p>
-        </div>
-      </div>
-      <div class="footer-direitos">
-        &copy; 2024 FestMax. Todos os direitos reservados.
-      </div>
-    </footer>
-  </div>
   
 
 </html>
