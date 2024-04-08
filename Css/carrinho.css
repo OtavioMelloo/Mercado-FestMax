@@ -11,50 +11,53 @@
     align-items: center;
 }
 
-.frame03_lista_produtos {
+
+
+.frame03_lista_prdutos{
     margin-top: 2rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.frame03_produtos {
-    margin-top: 4rem;
-    text-align: center;
-    border: 1px solid #BABABA;
-    border-radius: 5px;
-    width: 85%;
-    padding: 20px;
-}
-
-
-
-.info-produto {
-    margin-bottom: 2rem;
-    display: flex;
     align-items: center;
-    /* Alinha os elementos filhos na vertical */
-    justify-content: space-around;
+    border: 1px solid #BABABA;
+    border-radius: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.info-produto img {
+
+.frame03_lista_produtos table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cerveja{
     width: 50px;
 }
 
-.titulos {
+th, td {
+    padding: 20px;
+    padding-right: 90px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
     font-weight: bold;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    padding: 10px;
 }
 
-
-.quantidade-produto {
-    display: flex;
-    align-items: center;
+/* Estilo do input */
+#quantidade {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
 }
+
+#valor-total{
+    border: none;
+    text-align: center;
+}
+
 
 /* Estilo dos botões */
 .botao {
@@ -71,22 +74,13 @@
     background-color: #ccc;
 }
 
-/* Estilo do input */
-.input-numero {
-    width: 30px;
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 5px;
-    font-size: 16px;
-}
-
 
 .frame03_form {
     width: 40%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 3rem;
-    border: 1px solid black;
+    border: 1px solid #BABABA;
     border-radius: 15px;
 }
 
@@ -133,27 +127,4 @@ input[type="radio"] {
 
 .enviar button:hover {
     cursor: pointer;
-}
-
-#container {
-    margin: 20px auto;
-    width: 80%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-}
-
-#produto,
-#entrega,
-#preco,
-#quantidade,
-#total {
-    flex: 1;
-    text-align: center;
-}
-
-
-#quantidade input {
-    width: 50px;
 }

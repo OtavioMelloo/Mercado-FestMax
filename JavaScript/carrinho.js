@@ -1,11 +1,10 @@
-function calcularTotal() {
-    const quantidade = document.querySelector('#quantidade input').value;
-    const preco = document.querySelector('#preco p').textContent;
-    const total = quantidade * preco;
-    document.querySelector('#total p').textContent = `R$ ${total.toFixed(2)}`;
-  }
-  
-  calcularTotal();
-  
-  document.querySelector('#quantidade input').addEventListener('change', calcularTotal);
-  
+const valorProduto = 23.90; // Valor do produto pré-definido
+
+function calcularValorTotal() {
+  const quantidade = parseInt(document.getElementById("quantidade").value);
+  const valorTotal = valorProduto * quantidade;
+  document.getElementById("valor-total").value = valorTotal.toFixed(2);
+}
+
+// Calcular valor total na inicialização
+calcularValorTotal();
