@@ -110,7 +110,7 @@ input[type="radio"] {
     margin-right: 10px;
 }
 
-.enviar{
+.enviar {
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: flex;
@@ -119,7 +119,7 @@ input[type="radio"] {
     flex-direction: column;
 }
 
-.enviar button{
+.enviar button {
     background-color: #031CA6;
     color: white;
     font-weight: bold;
@@ -131,6 +131,29 @@ input[type="radio"] {
 }
 
 
-.enviar button:hover{
+.enviar button:hover {
     cursor: pointer;
+}
+
+#container {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+#produto,
+#entrega,
+#preco,
+#quantidade,
+#total {
+    flex: 1;
+    text-align: center;
+}
+
+
+#quantidade input {
+    width: 50px;
 }

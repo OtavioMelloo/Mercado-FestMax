@@ -13,57 +13,38 @@
         <img src="Assets/IMG/Logo_FestMax.png">
     </div>
 
-    <div class="frame03_lista_produtos">
-        <h1>MEU CARRINHO</h1>
-        <div class="frame03_produtos">
-            <div class="titulos">
-                <div class="produto">Produto</div>
-                <div class="entrega">Entrega</div>
-                <div class="preco">Preço</div>
-                <div class="quantidade">Quantidade</div>
-                <div class="total">Total</div>
-            </div>
-
-            <div class="produtos">
-                <div class="info-produto">
-                    <div class="produto">
-                        <img src="Assets/IMG/ImagensGrid/feijao.png">
-                    </div>
-                    <div class="entrega">
-                        R$ 10,00
-                    </div>
-                    <div class="preco">
-                        R$ 23,90
-                    </div>
-                    <div class="quantidade">
-                        1
-                    </div>
-                    <div class="Total">
-                        R$ 33,90
-                    </div>
-                </div>
-
-                <div class="info-produto">
-                    <div class="produto">
-                        <img src="Assets/IMG/ImagensGrid/cremedeleite.png">
-                    </div>
-                    <div class="entrega">
-                        R$ 10,00
-                    </div>
-                    <div class="preco">
-                        R$ 23,90
-                    </div>
-                    <div class="quantidade">
-                        1
-                    </div>
-                    <div class="Total">
-                        R$ 33,90
-                    </div>
-                </div>
-
-            </div>
+    <div id="container">
+        <div id="produto">
+            <h3>Produto</h3>
+            <img src="Assets/IMG/ImagensGrid/cerveja.png" alt="Cerveja">
+            <img src="Assets/IMG/ImagensGrid/cremedeleite.png" alt="creme de leite">
         </div>
-    </div>
+        <div id="produto-nome">
+            <h3>Nome</h3>
+            <p>Cerveja</p>
+            <p>Creme de Leite</p>
+        </div>
+        <div id="entrega">
+            <h3>Entrega</h3>
+            <p>A calcular</p>
+            <p>A calcular</p>
+        </div>
+        <div id="preco">
+            <h3>Preço</h3>
+            <p>R$ 10,00</p>
+            <p>R$ 30,00</p>
+        </div>
+        <div id="quantidade">
+            <h3>Quantidade</h3>
+            <input type="number" value="1" min="1">
+            <input type="number" value="1" min="1">
+        </div>
+        <div id="total">
+            <h3>Total</h3>
+            <p>R$ 10,00</p>
+            <p>R$ 13,00</p>
+        </div>
+    </div> 
 
     <form action="#" class="frame03_form">
         <p>Caso algum item falte, você deseja: *Obrigatório</p>
