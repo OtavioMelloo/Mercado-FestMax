@@ -14,6 +14,7 @@
 
 
 .frame03_lista_prdutos{
+    width: 1400px;
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -28,7 +29,7 @@
 
 .frame03_lista_produtos table {
     border-collapse: collapse;
-    width: 100%;
+    width: 1400px;
 }
 
 #cerveja{
