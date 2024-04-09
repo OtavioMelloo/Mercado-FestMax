@@ -1,4 +1,4 @@
-const valorProduto = 23.90; // Valor do produto pré-definido
+const valorProduto = 7.99; // Valor do produto pré-definido
 
 function calcularValorTotal() {
   const quantidade = parseInt(document.getElementById("quantidade").value);
