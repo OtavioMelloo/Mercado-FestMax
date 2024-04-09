@@ -318,6 +318,204 @@
             </div>
           </footer>
         </div>
+  <title>FestMax</title>
+</head>
+
+<body>
+  <section class="frame01_header">
+    <div id="mainframe01">
+
+      <img src="Assets/IMG/Logo_FestMax.png" alt="Logo" />
+      <div class="searchbar">
+
+        <!-- COMENTARIO FODA 2 -->
+
+        <input type="text" placeholder="Procurando Algo?" />
+        <a href="#" type="button"><i class="material-icons">search</i></a>
+      </div>
+
+      <div class="actions">
+        <a href="#">
+          <div class="conta icon_text point">
+            <span class="material-symbols-outlined">contacts_product</span>
+            <div class="account_text text_header">
+              <h1>Minha</h1>
+              <p>conta</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="M_pedidos flex point">
+            <span class="material-symbols-outlined">package_2</span>
+            <div class="pedidos_text text_header">
+              <h1>Meus</h1>
+              <p>pedidos</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="nosso_time flex icon_text point">
+            <span class="material-symbols-outlined">diversity_3</span>
+            <div class="equipe_text text_header">
+              <h1>Nosso</h1>
+              <p>Time</p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <a href="carrinho.html">
+          <div class="carrinho_compra flex icon_text point">
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <div class="equipe_text text_header">
+              <h1>Carrinho</h1>
+              <p>Time</p>
+            </div>
+          </div>
+          </a>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+    <section class="frame01_nav">
+      <nav class="nav_bar">
+        <a href="#">Todas as Categorias</a>
+        <a href="#">Hortifrúti</a>
+        <a href="#">Bebidas</a>
+        <a href="#">Padaria</a>
+        <a href="#">Mercearia</a>
+        <a href="#">Higiene e perfumaria</a>
+        <a href="#">Sou FestMax</a>
+      </nav>
+    </section>
+
+    <section class="frame01_fretegratis">
+      <div class="frame01_fretegrat">
+        <img src="/Assets/IMG/Frete_Gratis.png" alt="Frete">
+      </div>
+    </section>
+
+  <section class="frame01_promocoes">
+    <div class="frame01_promo">
+      <div class="frame01_seta_esquerda" onclick="mudarPromo(-1);previous()">
+        <svg xmlns="http://www.w3.org/2000/svg" id="seta-esquerda" width="40" height="40" fill="currentColor"
+          class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+          <path
+            d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+        </svg>
+      </div>
+
+      <img src="/Assets/IMG/promo1.png" alt="Promoção 1" id="promo">
+
+      <div class="frame01_seta_direita" onclick="mudarPromo(1);next()">
+        <svg xmlns="http://www.w3.org/2000/svg" id="seta-direita" width="40" height="40" fill="currentColor"
+          class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+        </svg>
+      </div>
+
+  </section>
+
+  <div class="frame01_dots">
+    <div class="dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <div class="frame02_menucategorias">
+    <section class="categoria acougue" id="categoria1">
+      <aside class="frame02_titulocategorias">
+        Açougue
+      </aside>
+      <img src="/Assets/IMG/MenuCategorias/acougue.png">
+    </section>
+
+    <section class="categoria" id="categoria1">
+      <aside class="frame02_titulocategorias">
+        Hortifrúti
+      </aside>
+      <img src="/Assets/IMG/MenuCategorias/hortfruti.png">
+    </section>
+
+    <section class="categoria padaria" id="categoria1">
+      <aside class="frame02_titulocategorias">
+        Padaria
+      </aside>
+      <img src="/Assets/IMG/MenuCategorias/padaria.png" id="imgpad">
+    </section>
+
+    <section class="categoria" id="categoria1">
+      <aside class="frame02_titulocategorias">
+        Perfumaria
+      </aside>
+      <img src="/Assets/IMG/MenuCategorias/perfumes.png">
+    </section>
+
+    <section class="categoria" id="categoria1">
+      <aside class="frame02_titulocategorias">
+        Bebidas
+      </aside>
+      <img src="/Assets/IMG/MenuCategorias/bebidas.png">
+    </section>
+  </div>
+
+  <div class="frame02_grid_ofertas">
+    <h1>Ofertas do Dia</h1>
+    <div class="grid-produtos">
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/maionese.png" alt="Produto 1">
+        <h2>MAIONESE</h2>
+        <span class="preco-antigo">R$ 10,99</span>
+        <span class="preco-novo">R$ 8,99</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/cerveja.png" alt="Produto 2">
+        <h2>CERVEJA</h2>
+        <span class="preco-antigo">R$ 7,49</span>
+        <span class="preco-novo">R$ 6,49</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/chocolate.png" alt="Produto 3" id="imgchocolate">
+        <h2>CHOCOLATE</h2>
+        <span class="preco-antigo">R$ 5,50</span>
+        <span class="preco-novo">R$ 4,49</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/macarrao.png" alt="Produto 4">
+        <h2>MACARRÃO</h2>
+        <span class="preco-antigo">R$ 15,99</span>
+        <div class="preco-novo">R$ 15,00</div>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/amaciante.png" alt="Produto 5">
+        <h2>AMACIANTE</h2>
+        <span class="preco-antigo">R$ 29,99</span>
+        <span class="preco-novo">R$ 26,90</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/pao.png" alt="Produto 6">
+        <h2>PÃO DE FORMA</h2>
+        <span class="preco-antigo">R$ 6,99</span>
+        <span class="preco-novo">R$ 5,30</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/cremedeleite.png" alt="Produto 7">
+        <h2>CREME DE LEITE</h2>
+        <span class="preco-antigo">R$ 4,50</span>
+        <span class="preco-novo">R$ 3,69</span>
+      </div>
+      <div class="produto">
+        <img src="Assets/IMG/ImagensGrid/feijao.png" alt="Produto 8">
+        <h2>FEIJÃO</h2>
+        <span class="preco-antigo">R$ 9,98</span>
+        <span class="preco-novo">R$ 8,79</span>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
 

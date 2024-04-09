@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho</title>
+    <link rel="stylesheet" href="Css/carrinho.css">
+</head>
+
+<body>
+    <div class="frame03_header">
+        <img src="Assets/IMG/Logo_FestMax.png">
+    </div>
+
+    <div class="frame03_lista_prdutos">
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Nome</th>
+                <th>Entrega</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="Index.html"><img src="Assets/IMG/ImagensGrid/cerveja.png" alt="Imagem do Produto" id="cerveja"></a>
+                </td>
+                <td>
+                    Cerveja
+                </td>
+                <td>
+                    A definir
+                </td>
+                <td>
+                    R$ 23,90
+                </td>
+                <td>
+                    <input type="number" id="quantidade" name="quantidade" value="1" min="1" max="100" onchange="calcularValorTotal()">
+                </td>
+                <td>
+                    <input type="number" id="valor-total" name="valor-total" readonly>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <form action="#" class="frame03_form">
+        <p>Caso algum item falte, você deseja: *Obrigatório</p>
+        <div class="opcoes">
+            <label for="sele1">
+                <input type="radio" id="sele1" name="opcao" value="substituir"> Substituir o produto por um de valor
+                aproximado
+            </label>
+            <br>
+            <label for="sele2">
+                <input type="radio" id="sele2" name="opcao" value="retornar"> Retornar o valor do produto
+            </label>
+        </div>
+    </form>
+
+    <div class="enviar">
+        <button class="botao_enviar">FINALIZAR COMPRA</button>
+        <a href="Index.html">Escolher mais produtos</a>
+    </div>
+
+    <script src="JavaScript/carrinho.js"></script>
+</body>
+
+</html>

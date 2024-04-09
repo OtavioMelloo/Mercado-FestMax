@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.frame03_header {
+    background-color: #031CA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.frame03_lista_prdutos{
+    width: 1400px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BABABA;
+    border-radius: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.frame03_lista_produtos table {
+    border-collapse: collapse;
+    width: 1400px;
+}
+
+#cerveja{
+    width: 50px;
+}
+
+th, td {
+    padding: 20px;
+    padding-right: 90px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Estilo do input */
+#quantidade {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#valor-total{
+    border: none;
+    text-align: center;
+}
+
+
+/* Estilo dos botões */
+.botao {
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #ccc;
+}
+
+
+.frame03_form {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    border: 1px solid #BABABA;
+    border-radius: 15px;
+}
+
+.frame03_form p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.opcoes {
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.frame03_form label {
+    display: block;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.enviar {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enviar button {
+    background-color: #031CA6;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 246px;
+    height: 76px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.enviar button:hover {
+    cursor: pointer;
+}
