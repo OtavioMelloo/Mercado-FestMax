@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+.px1300 {
+    width: 1300px;
+}
+
 :root {
     --cor1: #031CA6;
     --cor2: #6371BF;
