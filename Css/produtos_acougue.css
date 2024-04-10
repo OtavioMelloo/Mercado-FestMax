@@ -232,7 +232,6 @@ nav {
 /* Grid */
 .frame05_grid {
     margin-top: 3rem;
-    background-color: green;
     display: grid;
     max-width: 1300px;
     margin: 0 auto;
