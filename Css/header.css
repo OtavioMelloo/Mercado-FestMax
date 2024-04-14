@@ -1,0 +1,164 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+:root {
+    --cor1: #031CA6;
+    --cor2: #6371BF;
+    --cor3: #031CA6;
+    --cor4: #A9ABD9;
+    --w: #F2F2F2;
+}
+
+/* Cores dos icones */
+.actions a {
+    color: rgba(255, 255, 255, 0.512);
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 50px;
+}
+
+.frame01_header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor1);
+}
+
+#mainframe01 {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    width: 30%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#mainframe01 img {
+    width: 90px;
+    height: 67px;
+}
+
+
+.searchbar input,
+.searchbar i {
+    background-color: #6371BF;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 400px;
+}
+
+.searchbar input {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.searchbar i {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+}
+
+.conta,
+.pedidos {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.text_header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.3em;
+    line-height: 1em;
+    font-size: 12px;
+
+}
+
+.actions {
+    /* background-color: rgb(121, 60, 60); */
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    width: auto;
+}
+
+.actions a span {
+    font-size: 30px;
+}
+
+.equipe_text {
+    margin-left: 3px;
+}
+
+.nosso_time span {
+    font-size: 35px;
+    margin-right: 3px;
+    /* margin-top: px; */
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.601);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+.point {
+    /* background-color: #000000; */
+    display: flex;
+    align-items: center;
+}
+
+.nosso_time span {
+    height: 30px;
+}
+
+.pintar {
+    background-color: yellow;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    display: flex;
+    margin-right: 30px;
+}
+
+.time {
+    margin-right: 0;
+    /* background-color: #009900; */
+}
