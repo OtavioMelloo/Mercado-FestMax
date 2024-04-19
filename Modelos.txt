@@ -1,0 +1,53 @@
+----!! INICIO HEADER!!----
+
+<section class="frame01_header">
+    <div id="mainframe01">
+      <div class="logo pinter"><img src="../Assets/IMG/Logo_FestMax.png" alt="Logo" /></div>
+
+      <div class="actions">
+        <!-- Barra de Pesquisa -->
+        <div class="searchbar">
+          <input type="text" placeholder="Procurando Algo?" />
+          <a href="#" type="button"><i class="material-icons">search</i></a>
+        </div>
+        <!-- Icones -->
+        <div class="icon">
+          <a href="/pages/minhaconta.html">
+            <div class="icone">
+              <span class="material-symbols-outlined">contacts_product</span>
+              <div class="text_header">
+                <p>Minha <br> conta</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icone">
+              <span class="material-symbols-outlined">package_2</span>
+              <div class="text_header">
+                <p>Meus <br> pedidos</p>
+              </div>
+            </div>
+          </a>
+          <a href="carrinho.html">
+            <div class="icone">
+              <span class="material-symbols-outlined">shopping_cart</span>
+              <div class="text_header">
+                <p>Carrinho de <br> compras</p>
+              </div>
+            </div>
+          </a>
+          <a href="pages/nosso_time.html">
+            <div class="icone time">
+              <span class="material-symbols-outlined">diversity_4</span>
+              <div class="text_header">
+                <p>Nosso <br> time</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+----!! FIM DO HEADER !!----

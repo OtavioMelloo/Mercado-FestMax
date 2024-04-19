@@ -40,4 +40,3 @@ dots[0].addEventListener("click", () => {
     currentDotIndex = dots.length - 1;
     dots[currentDotIndex].classList.add("active");
 });
-
