@@ -1,0 +1,285 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+:root {
+    --cor1: #031CA6;
+    --cor2: #6371BF;
+    --cor3: #031CA6;
+    --cor4: #A9ABD9;
+    --w: #F2F2F2;
+}
+
+.frame05_actions a {
+    color: rgba(255, 255, 255, 0.512);
+}
+
+.frame05_layout {
+    width: 100%;
+}
+
+.frame05_icone {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 50px;
+}
+
+.frame05_header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor1);
+}
+
+#mainframe05 {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame05_searchbar {
+    display: flex;
+    width: 30%;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#mainframe05 img {
+    width: 90px;
+    height: 67px;
+}
+
+
+.frame05_searchbar input,
+.frame05_searchbar i {
+    background-color: #6371BF;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 400px;
+}
+
+.frame05_searchbar input {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.frame05_searchbar i {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+}
+
+.frame05_conta,
+.frame05_pedidos {
+    display: flex;
+}
+
+.frame05_flex {
+    display: flex;
+}
+
+.frame05_text_header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.3em;
+    line-height: 1em;
+    font-size: 12px;
+
+}
+
+.frame05_actions {
+    /* background-color: rgb(121, 60, 60); */
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.frame05_icon {
+    display: flex;
+    justify-content: end;
+    width: auto;
+}
+
+.frame05_actions a span {
+    font-size: 30px;
+}
+
+.frame05_equipe_text {
+    margin-left: 3px;
+}
+
+.frame05_nosso_time span {
+    font-size: 35px;
+    margin-right: 3px;
+    /* margin-top: px; */
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.601);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.frame05_point {
+    /* background-color: #000000; */
+    display: flex;
+    align-items: center;
+}
+
+.frame05_nosso_time span {
+    height: 30px;
+}
+
+.frame05_pintar {
+    background-color: yellow;
+}
+
+.frame05_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame05_icone {
+    display: flex;
+    margin-right: 30px;
+}
+
+.frame05_time {
+    margin-right: 0;
+    /* background-color: #009900; */
+}
+
+/* !INICIO DA NAV BAR */
+
+.frame05_nav {
+    width: 100%;
+    height: 30px;
+    background-color: var(--cor2);
+}
+
+nav {
+    margin: 0 auto;
+    width: 1300px;
+    height: 100%;
+    background-color: var(--cor2);
+}
+
+#frame05_menu_hamb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+#frame05_menu_hamb span {
+    margin-right: 3px;
+}
+
+.frame05_nav_bar {
+    display: flex;
+    align-items: center;
+
+}
+
+.frame05_nav_bar a {
+    color: #ffffffb3;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.frame05_nav_bar a:hover {
+    color: var(--w);
+}
+
+.actions a:hover {
+    color: white;
+}
+
+.frame05_navegacao_home {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.frame05_navegacao_home a {
+    text-decoration: none;
+    color: #03178C;
+}
+
+.frame05_brand_arrow{
+    color: #03178C;
+}
+
+/* Grid */
+.frame05_grid {
+    margin-top: 3rem;
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.frame05_produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.frame05_card {
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    width: 268px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adiciona sombra para dar profundidade */
+    justify-content: center;
+}
+
+.frame05_card img {
+    width: 268px;
+    height: 224px;
+}
+
+.frame05_card h2 {
+    font-weight: bold;
+}
+
+.frame05_card button {
+    background-color: #03178C;
+    color: white;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 238px;
+    height: 50px;
+}
