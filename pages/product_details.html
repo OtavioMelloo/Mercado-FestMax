@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto</title>
+    <link rel="stylesheet" href="/Css/product_details.css">
 </head>
 <body>
     <header>
@@ -12,10 +13,20 @@
 
     <section class="frame05_main">
         <div class="frame05_image">
-            <!-- Espaço dedicado a imagem -->
+            <img src="/Assets/IMG/product_details/imgfodadeexemplo.jpg">
         </div>
         <div class="frame05_content">
             <!-- Espaço dedicado ao conteúdo do produto (nome, valor, botão de compra, input de qtd, etc) -->
+            <!-- Nome do produto -->
+            <h1>Nome padrão de produto</h1>
+            <!-- Preço -->
+            <h2 id="price">R$00,00</h2>
+            <!-- input quantidade e botão adicionar ao carrinho -->
+            <label name="productqtd">Quantidade</label><br>
+            <input type="number" id="productqtd" name="productqtd" min="1" max="100" value="1">
+            <input type="submit" value="Adicionar ao carrinho" id="submit_button">
+            <!-- Descrição do produto -->
+            <p>Descrição padrão de produto</p>
         </div>
     </section>
     <footer>
