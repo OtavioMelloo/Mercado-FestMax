@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilização da main */
+.frame05_main {
+    width: 55%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* Estilização da div image */
+
+.frame05_image img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Estilização do product content (preço, nome, inputs, etc) */
+
+#price {
+    color: #03178C;
+}
+
+.frame05_content label{
+    color: #898989;
+}
+
+.frame05_content input[type=submit]{
+    color: #FFFFFF;
+    background-color: #519154;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.frame05_content input[type=submit]:hover{
+    cursor: pointer;
+}
