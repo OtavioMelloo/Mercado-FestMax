@@ -28,23 +28,65 @@ body {
 
 /* Estilização do product content (preço, nome, inputs, etc) */
 
+
+
+.frame05_main h1 {
+    font-size: 30px;
+}
+
 #price {
+    font-size: 30px;
     color: #03178C;
 }
 
-.frame05_content label{
+.frame05_content label {
     color: #898989;
 }
 
-.frame05_content input[type=submit]{
-    color: #FFFFFF;
-    background-color: #519154;
+.number-input {
+    display: flex;
+    align-items: center;
+}
+
+.number-input button {
+    appearance: none;
     border: none;
-    border-radius: 10px;
-    padding: 7px;
+    cursor: pointer;
+    outline: none;
+    width: 30px;
+    height: 37px;
+    background-color: #eee;
+    color: #333;
     font-weight: bold;
 }
 
-.frame05_content input[type=submit]:hover{
+.number-input input {
+    border: none;
+    width: 60px;
+    height: 35px;
+    text-align: center;
+}
+
+.number-input [type="number"]::-webkit-outer-spin-button,
+.number-input [type="number"]::-webkit-inner-spin-button {
+  /* Hide the default arrows */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.frame05_content input[type=submit] {
+    color: #FFFFFF;
+    margin-left: 15px;
+    background-color: #519154;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 231px;
+    font-weight: bold;
+}
+
+.frame05_content input[type=submit]:hover {
     cursor: pointer;
 }
