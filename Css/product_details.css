@@ -12,7 +12,7 @@ body {
 /* Estilização da main */
 .frame05_main {
     width: 55%;
-    margin: 0 auto 0 auto;
+    margin: 100px auto 100px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
