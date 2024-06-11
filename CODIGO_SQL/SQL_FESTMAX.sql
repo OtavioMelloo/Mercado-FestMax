@@ -2,7 +2,7 @@ CREATE DATABASE festmax;
 
 USE festmax;
 
-/*CREATE TABLES*/
+/CREATE TABLES/
 
 CREATE TABLE imagem_produto (
     ID_IMAGEM_PRODUTO INT AUTO_INCREMENT PRIMARY KEY,
@@ -138,7 +138,7 @@ CREATE TABLE item_comprado (
     ID_PRODUTO INT
 );
 
-/*CONSTRAINTS*/
+/CONSTRAINTS/
 
 ALTER TABLE setor_produto
 ADD CONSTRAINT fk_setor_produto_imagem
